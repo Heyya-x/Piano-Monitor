@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--
+	  App Sandbox is ON. Personal use does not require it, but enabling it keeps the declared
+	  capabilities honest: audio-input and network.server are only meaningful inside the sandbox, so
+	  leaving the sandbox off while declaring them is misleading about what the app can reach.
+
+	  The app declares exactly four things:
+	    - app-sandbox: the baseline
+	    - audio-input: to hear the piano (the app's whole purpose)
+	    - network.server: the Bonjour HTTP API
+	    - network.client: the app's own loopback health checks
+	  It deliberately does *not* request file access, automation, screen recording, or camera.
+
+	  Consequence worth knowing: practice data lives in the app's container
+	  (~/Library/Containers/com.pianomonitor.mac/Data/Library/Application Support/PianoMonitor),
+	  not in the shared Application Support directory.
+	-->
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.device.audio-input</key>
+	<true/>
+	<key>com.apple.security.network.server</key>
+	<true/>
+	<key>com.apple.security.network.client</key>
+	<true/>
+</dict>
+</plist>

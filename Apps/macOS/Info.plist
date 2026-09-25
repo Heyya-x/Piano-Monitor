@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Menu bar only: no Dock icon, no app-switcher entry. -->
+	<key>LSUIElement</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Personal practice tool. No audio is recorded or stored.</string>
+
+	<!-- Microphone access: this app listens to the piano, but never saves audio. -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>PianoMonitor listens to your piano to measure how long you practise. Audio is analysed in memory and never saved or sent anywhere.</string>
+
+	<!-- Local network: the read-only JSON API the iPhone app connects to. -->
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>PianoMonitor publishes your practice statistics on your local network so the iPhone app can display them. The API is read-only.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_pianomonitor._tcp</string>
+	</array>
+
+	<key>NSSupportsAutomaticTermination</key>
+	<false/>
+	<key>NSSupportsSuddenTermination</key>
+	<false/>
+</dict>
+</plist>

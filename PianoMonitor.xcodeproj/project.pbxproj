@@ -1,0 +1,1197 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+005563B0FE565048FF365DEA /* StateMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C585AAF6552ADDF63D5A7 /* StateMachineTests.swift */; };
+01A02A3745EE98544A0C0C7D /* APIModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C189E22055C2610FB40BB3A /* APIModels.swift */; };
+0380621F8BCA688494B679D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = macosx;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+053F9DA55768DFF6F581F91E /* AnalysisPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95BBA940ECB7730845F3F4 /* AnalysisPipeline.swift */; };
+05CB0060E5AB1BEE4C3FB68A /* APIServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIServerTests.swift"; sourceTree = "<group>"; };
+074C47AC33727CBF92CBF108 /* PianoMonitorKit */ = {isa = PBXTargetDependency; target = 4ECCAE6F104967876E17DA88 /* PianoMonitorKit */; targetProxy = 2966B43237B38441855198EB /* PBXContainerItemProxy */; };
+07F1FB8B7E70C0E3F4AC76E2 /* PianoDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PianoDetector.swift"; sourceTree = "<group>"; };
+0836998E53B7F7CBB639D79C /* PianoMonitorIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PianoMonitorIOS.entitlements"; sourceTree = "<group>"; };
+08426AD10FF4B5C408CFFCF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+090DFB909A4AF99FEE4A3619 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				08426AD10FF4B5C408CFFCF5 /* child */,
+				B13718421DF4E9B045C134FF /* child */,
+				DCA0979E84C8158359E07BD8 /* child */,
+			);
+			path = "macOS"; sourceTree = "<group>";
+		};
+0931F9D6858FA43D6E89F44F /* PianoMonitorIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PianoMonitorIOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+0A436570FD8B8E6AC546C146 /* PianoAPIServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PianoAPIServer.swift"; sourceTree = "<group>"; };
+0BADD3B70BD414A9A4809146 /* Recording */ = {
+			isa = PBXGroup;
+			children = (
+				1D55B2CB7C80C348BBA8DC90 /* child */,
+				2A8B6BE05379B21C4458A05D /* child */,
+				4622261B8A8EF5858DB97C4B /* child */,
+				4E123BEECA3C23161DB87BB6 /* child */,
+				6130C62AE35901272C43DA36 /* child */,
+				C85A3B756D5810474AEFD6AA /* child */,
+				FA95BBA940ECB7730845F3F4 /* child */,
+			);
+			path = "Recording"; sourceTree = "<group>";
+		};
+0D4C88A75E3D028199C79C76 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E6DC2F9DAE10C73857F97E2A /* child */,
+			);
+			path = "Sources"; sourceTree = "<group>";
+		};
+0EB279ED5013B1570B064E76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A02A3745EE98544A0C0C7D /* in Sources */,
+				8AB8D19810B380C00F78702F /* in Sources */,
+				F358AFA1F9FDA87CFB559D38 /* in Sources */,
+				F8C85AE04F8F1EDCCCA05463 /* in Sources */,
+				A985FE7D6BE24B4809C500A2 /* in Sources */,
+				7C78B7186B2E1F10201DD594 /* in Sources */,
+				94677B855D712332A159B42A /* in Sources */,
+				9BB7320B9EAAA4A6B3A48FA7 /* in Sources */,
+				E354583E606470F83A09C818 /* in Sources */,
+				EB5D7C6F14E526D9D283CAE0 /* in Sources */,
+				190B0D0A0EF80FCAAEBE0926 /* in Sources */,
+				470B1A10E25A63B70350C41D /* in Sources */,
+				B477B6DB963DBCDF44DA2F69 /* in Sources */,
+				6CDF17FFA6E8B49BF30AFE54 /* in Sources */,
+				C44E85E8A89FAE5F75CF3BA7 /* in Sources */,
+				13CAF6DD662D3A429E98F505 /* in Sources */,
+				053F9DA55768DFF6F581F91E /* in Sources */,
+				B929769BD53C8BEE6BF9A7C9 /* in Sources */,
+				F9AB59A2A86971C26C7D19B2 /* in Sources */,
+				17A0A38F56AB632756E3915A /* in Sources */,
+				96C472076E233B618C939162 /* in Sources */,
+				0F4FB848A6DF32BEE76FD74D /* in Sources */,
+				C7AD0AEDC6328F7F50EDAC27 /* in Sources */,
+				B48547A136AECC2F835A53F8 /* in Sources */,
+				94365426AD2FD68B17A1C509 /* in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+0F4FB848A6DF32BEE76FD74D /* PracticeSessionRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8B6BE05379B21C4458A05D /* PracticeSessionRecorder.swift */; };
+13B3DC5308CD144E96073DC2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F810D3DC8E205C9B449066A /* child */,
+			);
+			sourceTree = "<group>";
+		};
+13CAF6DD662D3A429E98F505 /* PianoAPIServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A436570FD8B8E6AC546C146 /* PianoAPIServer.swift */; };
+140114ED1C1BA5B5E5C2AFAE /* PianoMonitorClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PianoMonitorClientModel.swift"; sourceTree = "<group>"; };
+1580345260364D1DCBE15B8E /* PianoMonitorIOSUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PianoMonitorIOSUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+15A038664412C2356E15EC86 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 8B27EFD309E0A222D0F52C62 /* Project object */; proxyType = 1; remoteGlobalIDString = 4ECCAE6F104967876E17DA88; remoteInfo = PianoMonitorKit; };
+1694D378ABFC1A8F6C2B0FFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.framework.pianomonitorkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+			name = Debug;
+		};
+17A0A38F56AB632756E3915A /* PianoDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4622261B8A8EF5858DB97C4B /* PianoDataStore.swift */; };
+17A9E131A742EAF2EEE86E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.framework.pianomonitoriosui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+			name = Debug;
+		};
+1804B78EBA80AE8896F72ACE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				0A436570FD8B8E6AC546C146 /* child */,
+				4C071008F1035F10DC631586 /* child */,
+			);
+			path = "Network"; sourceTree = "<group>";
+		};
+190B0D0A0EF80FCAAEBE0926 /* DetectorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FDDBA6E908F7CFED368885 /* DetectorConfiguration.swift */; };
+192532078551CACB882DAE75 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Log.swift"; sourceTree = "<group>"; };
+1B473833DDCE3CB162860127 /* PianoMonitorIOSUI */ = {
+			isa = PBXGroup;
+			children = (
+				0D4C88A75E3D028199C79C76 /* child */,
+			);
+			sourceTree = "<group>";
+		};
+1C28EC60D3217F406AF29C5A /* SharedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E639F83FC1F44C2EE205524A /* SharedViews.swift */; };
+1D55B2CB7C80C348BBA8DC90 /* JSONDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSONDataStore.swift"; sourceTree = "<group>"; };
+1DA7B328358DE4E27C394468 /* IOSHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IOSHomeView.swift"; sourceTree = "<group>"; };
+1DCE9902B6FF25856EFDA337 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+1EF136DA8392AB54514CBA07 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 8B27EFD309E0A222D0F52C62 /* Project object */; proxyType = 1; remoteGlobalIDString = 4ECCAE6F104967876E17DA88; remoteInfo = PianoMonitorKit; };
+1FDB4B4BA97AFD17448C7948 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				140114ED1C1BA5B5E5C2AFAE /* child */,
+				4B55360E4258338872EB5960 /* child */,
+			);
+			path = "State"; sourceTree = "<group>";
+		};
+2100DC3C379739E071EB27B5 /* PianoMonitorMacUI */ = {isa = PBXTargetDependency; target = 98839A528B9859FAE2CBAF61 /* PianoMonitorMacUI */; targetProxy = 5EBB536FCF478814BCE8C946 /* PBXContainerItemProxy */; };
+2173FCB7C07EE171EE03966A /* AudioDeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioDeviceManager.swift"; sourceTree = "<group>"; };
+22E41344AB4C87B4E50A10F4 /* PianoMonitorIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FE4173C5191B6FA3157855 /* PianoMonitorIOSApp.swift */; };
+23A72B0DD7146DBBFBC607BA /* PianoMonitorMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 299CE6C1CA172C5AA78D38D7 /* Build configuration list for PBXNativeTarget "PianoMonitorMac" */;
+			buildPhases = (
+				26FC7E7E861FEBAE2F69ED17 /* Sources */,
+				42EE3CB73C48659370082EDD /* Frameworks */,
+				1DCE9902B6FF25856EFDA337 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450948BBAEDE1B40B0EFE959 /* PBXTargetDependency */,
+				2100DC3C379739E071EB27B5 /* PBXTargetDependency */,
+			);
+			name = PianoMonitorMac;
+			productName = PianoMonitorMac;
+			productReference = 5D8937C18E8352A68E309FBA /* PianoMonitorMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+267AD45213594470B1C92DCC /* PianoMonitorKit */ = {isa = XCSwiftPackageProductDependency; productName = PianoMonitorKit; };
+26FC7E7E861FEBAE2F69ED17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C6FC7BE13EC4447C0BD72E1 /* in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+2830F9977E2F41F90941D071 /* PianoMonitorIOSUI */ = {isa = PBXTargetDependency; target = 6356633D68C3B6E8BC92A2DD /* PianoMonitorIOSUI */; targetProxy = 8355822B26BE57BCD3C02857 /* PBXContainerItemProxy */; };
+283F2642FFC8CAD9359FEE07 /* SyntheticSignal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SyntheticSignal.swift"; sourceTree = "<group>"; };
+2966B43237B38441855198EB /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 8B27EFD309E0A222D0F52C62 /* Project object */; proxyType = 1; remoteGlobalIDString = 4ECCAE6F104967876E17DA88; remoteInfo = PianoMonitorKit; };
+299CE6C1CA172C5AA78D38D7 /* Build configuration list for PBXNativeTarget "PianoMonitorMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C1D19964D1771678263352 /* Debug */,
+				762DB7A8B0F8E5B067B57A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+2A8B6BE05379B21C4458A05D /* PracticeSessionRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PracticeSessionRecorder.swift"; sourceTree = "<group>"; };
+2BCCA9E52B6FDB1C3610E2A3 /* Build configuration list for PBXNativeTarget "PianoMonitorMacUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3823EBF133121DA779A8157 /* Debug */,
+				B283FF0A7FC30D5841AEC4EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+2C189E22055C2610FB40BB3A /* APIModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIModels.swift"; sourceTree = "<group>"; };
+2C6FC7BE13EC4447C0BD72E1 /* PianoMonitorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA0979E84C8158359E07BD8 /* PianoMonitorApp.swift */; };
+2C93C0486237BCF925614595 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648829DBA1858B5B74D4240C /* MainWindowController.swift */; };
+2EBA4220D26BBBA70680DEE1 /* IOSHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IOSHistoryView.swift"; sourceTree = "<group>"; };
+30059F4D954F5EE78EB0C90A /* PlayingStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlayingStateMachine.swift"; sourceTree = "<group>"; };
+30C1D19964D1771678263352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Apps/macOS/PianoMonitorMac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Apps/macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.mac;
+				PRODUCT_NAME = "Piano Monitor";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+			name = Debug;
+		};
+3221DB086E5EF2E0029ADF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.mactests;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piano Monitor.app/Contents/MacOS/Piano Monitor";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+			};
+			name = Release;
+		};
+33042A45799882EB626A6BF6 /* IOSRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B542740F3ED9942D3D34350 /* IOSRootView.swift */; };
+33C70DD6535738D5B8DD5226 /* PianoMonitorKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				05CB0060E5AB1BEE4C3FB68A /* child */,
+				40BE41558318EBFE33647A0B /* child */,
+				479B14BD1A6A281525EBA0AE /* child */,
+				54D62485AE1E950BFA875B03 /* child */,
+				570C585AAF6552ADDF63D5A7 /* child */,
+				6CC60AE15A7C3B9F27B03261 /* child */,
+				984EB3843ECB6D8EC243822F /* child */,
+				99F08ACBA71964F5A55765DF /* child */,
+				B2B479C527092CC93D3CB641 /* child */,
+				D634C4042DFD7A3BBFEE6D69 /* child */,
+				F0DB9328300D3CF3228E78C2 /* child */,
+			);
+			path = "PianoMonitorKitTests"; sourceTree = "<group>";
+		};
+35AB4F73155B0E794A9B7347 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E639322D16A4A30FEA13C4 /* DashboardView.swift */; };
+35F2FD1FE41933ECC0102626 /* PianoMonitorKit */ = {
+			isa = PBXGroup;
+			children = (
+				591A8301562BE573F8F77BC6 /* child */,
+				B5FE66D96E2B5E306D035558 /* child */,
+				A185A3D291BBF88EFCC8B305 /* child */,
+				CC71FA64222A51A0FF6E00AF /* child */,
+				B05091084B0FC805CCC7A067 /* child */,
+				1804B78EBA80AE8896F72ACE /* child */,
+				0BADD3B70BD414A9A4809146 /* child */,
+				703E6672EDCE272BFEC4929B /* child */,
+			);
+			path = "PianoMonitorKit"; sourceTree = "<group>";
+		};
+3618B743F868FA2DD9C12B5F /* TempoAnalyzerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CEA824B0DB28DAC16B85A9 /* TempoAnalyzerView.swift */; };
+390F1E2166B993087CFDFAA0 /* PianoMonitorMacUI */ = {
+			isa = PBXGroup;
+			children = (
+				3C0981E68671505543056884 /* child */,
+				E288D4254968889A17FFB9A4 /* child */,
+				9A3FA16C5648B5A849AAD789 /* child */,
+			);
+			path = "PianoMonitorMacUI"; sourceTree = "<group>";
+		};
+3C0981E68671505543056884 /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				64165AD9799D1DEC57CAA3E2 /* child */,
+				648829DBA1858B5B74D4240C /* child */,
+				90D680959F5885346D956236 /* child */,
+			);
+			path = "MenuBar"; sourceTree = "<group>";
+		};
+3F810D3DC8E205C9B449066A /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				090DFB909A4AF99FEE4A3619 /* child */,
+			);
+			path = "Apps"; sourceTree = "<group>";
+		};
+40BE41558318EBFE33647A0B /* AudioDeviceManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioDeviceManagerTests.swift"; sourceTree = "<group>"; };
+418DCF83F1D299B60716C666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662A907C779CC756A62D30C1 /* in Frameworks */,
+				B65972E303393DAF9162EDD1 /* in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+42EE3CB73C48659370082EDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3068CE00E6D66061D324BD0 /* in Frameworks */,
+				F2EEA4FE33D11AB58D2285A4 /* in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+42F28F14F4BA296E5B7F4DB3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				35F2FD1FE41933ECC0102626 /* child */,
+			);
+			path = "Sources"; sourceTree = "<group>";
+		};
+431C5EAEB6754567816E8555 /* TestSignals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0DB9328300D3CF3228E78C2 /* TestSignals.swift */; };
+43CB59F493231BD5FECDBDD7 /* PianoMonitorClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140114ED1C1BA5B5E5C2AFAE /* PianoMonitorClientModel.swift */; };
+450948BBAEDE1B40B0EFE959 /* PianoMonitorKit */ = {isa = PBXTargetDependency; target = 4ECCAE6F104967876E17DA88 /* PianoMonitorKit */; targetProxy = 1EF136DA8392AB54514CBA07 /* PBXContainerItemProxy */; };
+451CE55A4DF9211711B38554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+4622261B8A8EF5858DB97C4B /* PianoDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PianoDataStore.swift"; sourceTree = "<group>"; };
+470B1A10E25A63B70350C41D /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192532078551CACB882DAE75 /* Log.swift */; };
+472A54A38581B7ED3956A61F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6FEB8B6B415C89C3C649BE2 /* in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+479B14BD1A6A281525EBA0AE /* StatisticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatisticsTests.swift"; sourceTree = "<group>"; };
+485182EB7248E2AFD6C32B3E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				390F1E2166B993087CFDFAA0 /* child */,
+			);
+			path = "Sources"; sourceTree = "<group>";
+		};
+4B25D15283588D5E11BB58C8 /* PianoMonitorMacUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PianoMonitorMacUI.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+4B542740F3ED9942D3D34350 /* IOSRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "IOSRootView.swift"; sourceTree = "<group>"; };
+4B55360E4258338872EB5960 /* BonjourClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BonjourClient.swift"; sourceTree = "<group>"; };
+4C071008F1035F10DC631586 /* HTTPRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPRequest.swift"; sourceTree = "<group>"; };
+4E123BEECA3C23161DB87BB6 /* SwiftDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftDataStore.swift"; sourceTree = "<group>"; };
+4E4E5525E14694F1CB8C07C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.framework.pianomonitoriosui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+			};
+			name = Release;
+		};
+4ECCAE6F104967876E17DA88 /* PianoMonitorKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FEC7E383FE3B3931583CEBB /* Build configuration list for PBXNativeTarget "PianoMonitorKit" */;
+			buildPhases = (
+				0EB279ED5013B1570B064E76 /* Sources */,
+				567C79DAD22E128901146AE6 /* Frameworks */,
+				8264CB3CD7B387A7E68D2300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+
+			);
+			name = PianoMonitorKit;
+			productName = PianoMonitorKit;
+			productReference = B27F5255A28E2C7548BBE435 /* PianoMonitorKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+4F33E3A7A4225615F21B0EE2 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				33C70DD6535738D5B8DD5226 /* child */,
+			);
+			path = "Tests"; sourceTree = "<group>";
+		};
+4F8D36A92367CFDFEFB66CEE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README.md"; sourceTree = "<group>"; };
+50F693143D8F2C3329D1C8BF /* PianoMonitorKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PianoMonitorKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+5250CB6B944E230A23F1E1E3 /* AudioDeviceManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BE41558318EBFE33647A0B /* AudioDeviceManagerTests.swift */; };
+53694BB07E1CE0A6096DF48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+537D429652A9FAAB52C4C746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+53CEA824B0DB28DAC16B85A9 /* TempoAnalyzerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TempoAnalyzerView.swift"; sourceTree = "<group>"; };
+54D62485AE1E950BFA875B03 /* RecorderAndStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecorderAndStoreTests.swift"; sourceTree = "<group>"; };
+567C79DAD22E128901146AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+570C585AAF6552ADDF63D5A7 /* StateMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StateMachineTests.swift"; sourceTree = "<group>"; };
+591A8301562BE573F8F77BC6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2C189E22055C2610FB40BB3A /* child */,
+			);
+			path = "API"; sourceTree = "<group>";
+		};
+5D8937C18E8352A68E309FBA /* PianoMonitorMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PianoMonitorMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+5D95274CF86080BDD056A82C /* RecorderAndStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D62485AE1E950BFA875B03 /* RecorderAndStoreTests.swift */; };
+5EBB536FCF478814BCE8C946 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 8B27EFD309E0A222D0F52C62 /* Project object */; proxyType = 1; remoteGlobalIDString = 98839A528B9859FAE2CBAF61; remoteInfo = PianoMonitorMacUI; };
+6130C62AE35901272C43DA36 /* PianoMonitorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PianoMonitorService.swift"; sourceTree = "<group>"; };
+615870CA5D4B73890D9751FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E41344AB4C87B4E50A10F4 /* in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+61AEA99F10B83EF837686E06 /* IOSHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA7B328358DE4E27C394468 /* IOSHomeView.swift */; };
+62FDDBA6E908F7CFED368885 /* DetectorConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetectorConfiguration.swift"; sourceTree = "<group>"; };
+6356633D68C3B6E8BC92A2DD /* PianoMonitorIOSUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 860384467F793E34F5943290 /* Build configuration list for PBXNativeTarget "PianoMonitorIOSUI" */;
+			buildPhases = (
+				8033559B27E37BCA668CF3AB /* Sources */,
+				E3995784510691962E9685B0 /* Frameworks */,
+				7FA63DFCD468FD1DC855051A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC0108043E971CC04908A530 /* PBXTargetDependency */,
+			);
+			name = PianoMonitorIOSUI;
+			productName = PianoMonitorIOSUI;
+			productReference = 1580345260364D1DCBE15B8E /* PianoMonitorIOSUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+64165AD9799D1DEC57CAA3E2 /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuBarContentView.swift"; sourceTree = "<group>"; };
+648829DBA1858B5B74D4240C /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainWindowController.swift"; sourceTree = "<group>"; };
+65AA0B85393EE685E3B6C31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				SDKROOT = macosx;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+65E5AC178B2CFAE4760A13A5 /* PianoMonitorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F5255A28E2C7548BBE435 /* PianoMonitorKit.framework */; };
+662A907C779CC756A62D30C1 /* PianoMonitorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F5255A28E2C7548BBE435 /* PianoMonitorKit.framework */; };
+69930AC282C8EEF75FDCE4A8 /* PracticeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PracticeModels.swift"; sourceTree = "<group>"; };
+6A39791D2045BDD2FA8A1663 /* PianoMonitorKit */ = {
+			isa = PBXGroup;
+			children = (
+				42F28F14F4BA296E5B7F4DB3 /* child */,
+			);
+			sourceTree = "<group>";
+		};
+6CC60AE15A7C3B9F27B03261 /* TempoAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TempoAnalyzerTests.swift"; sourceTree = "<group>"; };
+6CDF17FFA6E8B49BF30AFE54 /* PracticeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69930AC282C8EEF75FDCE4A8 /* PracticeModels.swift */; };
+6DBB25CE3F85EDA4D705E590 /* BonjourClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B55360E4258338872EB5960 /* BonjourClient.swift */; };
+6F21E04F2FC961B27CD92CDE /* Build configuration list for PBXNativeTarget "PianoMonitorKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACE9949B627A33BF1E5BB396 /* Debug */,
+				3221DB086E5EF2E0029ADF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+703E6672EDCE272BFEC4929B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				876428D3B9F7AFC58200CE81 /* child */,
+				F619A8AAFE9A9C7C5CB2DFA7 /* child */,
+			);
+			path = "Utility"; sourceTree = "<group>";
+		};
+70CA56842297ECB0957FAEAC /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984EB3843ECB6D8EC243822F /* PerformanceTests.swift */; };
+74F5FFD1E4DC8A43F0247EF3 /* PianoMonitorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F5255A28E2C7548BBE435 /* PianoMonitorKit.framework */; };
+75C1B04BC53E5FE8C387B6E1 /* PianoMonitorKit */ = {isa = PBXTargetDependency; target = 4ECCAE6F104967876E17DA88 /* PianoMonitorKit */; targetProxy = 9F1ED856B608BCF1FBE80E10 /* PBXContainerItemProxy */; };
+762DB7A8B0F8E5B067B57A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Apps/macOS/PianoMonitorMac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Apps/macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.mac;
+				PRODUCT_NAME = "Piano Monitor";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+			};
+			name = Release;
+		};
+764A9756EA0DDB1E5498618C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1DA7B328358DE4E27C394468 /* child */,
+				2EBA4220D26BBBA70680DEE1 /* child */,
+				4B542740F3ED9942D3D34350 /* child */,
+			);
+			path = "Views"; sourceTree = "<group>";
+		};
+7C78B7186B2E1F10201DD594 /* TempoAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54100BDC0C2F7B082CCAA40 /* TempoAnalyzer.swift */; };
+7D0AAB64D549D87CE1E6ABB8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+7FA63DFCD468FD1DC855051A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+7FEC7E383FE3B3931583CEBB /* Build configuration list for PBXNativeTarget "PianoMonitorKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1694D378ABFC1A8F6C2B0FFF /* Debug */,
+				D060B6B633F7E3B6592611F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+8033559B27E37BCA668CF3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBB25CE3F85EDA4D705E590 /* in Sources */,
+				43CB59F493231BD5FECDBDD7 /* in Sources */,
+				8B4A668D003B3C5A03DA1862 /* in Sources */,
+				61AEA99F10B83EF837686E06 /* in Sources */,
+				33042A45799882EB626A6BF6 /* in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+81570460FB1342130B252020 /* PianoMonitorKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F21E04F2FC961B27CD92CDE /* Build configuration list for PBXNativeTarget "PianoMonitorKitTests" */;
+			buildPhases = (
+				91ED37E792A1A4B12E964BBE /* Sources */,
+				885AD2E52220D90D8C216E3A /* Frameworks */,
+				53694BB07E1CE0A6096DF48B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074C47AC33727CBF92CBF108 /* PBXTargetDependency */,
+			);
+			name = PianoMonitorKitTests;
+			productName = PianoMonitorKitTests;
+			productReference = 50F693143D8F2C3329D1C8BF /* PianoMonitorKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+8264CB3CD7B387A7E68D2300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+8355822B26BE57BCD3C02857 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 8B27EFD309E0A222D0F52C62 /* Project object */; proxyType = 1; remoteGlobalIDString = 6356633D68C3B6E8BC92A2DD; remoteInfo = PianoMonitorIOSUI; };
+860384467F793E34F5943290 /* Build configuration list for PBXNativeTarget "PianoMonitorIOSUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17A9E131A742EAF2EEE86E80 /* Debug */,
+				4E4E5525E14694F1CB8C07C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+862D8F118A4FCF583E29CB10 /* Build configuration list for PBXNativeTarget "PianoMonitorIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7356CCD7025C1A7F6A7FA39 /* Debug */,
+				AC7F416F1435C8DF6E339B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+86397141269F9C7DF247EB9A /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64165AD9799D1DEC57CAA3E2 /* MenuBarContentView.swift */; };
+876428D3B9F7AFC58200CE81 /* BoundedOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BoundedOperation.swift"; sourceTree = "<group>"; };
+8789657498A7B6609F16F34E /* APIServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CB0060E5AB1BEE4C3FB68A /* APIServerTests.swift */; };
+885AD2E52220D90D8C216E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E5AC178B2CFAE4760A13A5 /* in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+893C96DC9411281DADE4D2E0 /* AudioEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioEngine.swift"; sourceTree = "<group>"; };
+8AB8D19810B380C00F78702F /* DSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC26C83F8F6795F70EECDB /* DSP.swift */; };
+8B27EFD309E0A222D0F52C62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 9E3EB3CC765BED2A144F59EB;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F570600CF69E4B928FC37F90;
+			packageReferences = (
+				D3939E7FBE0484CCA9C2316D /* XCLocalSwiftPackageReference "PianoMonitor" */,
+			);
+			productRefGroup = AAD2FD9C911DD39F313E625F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECCAE6F104967876E17DA88 /* target */,
+				98839A528B9859FAE2CBAF61 /* target */,
+				6356633D68C3B6E8BC92A2DD /* target */,
+				23A72B0DD7146DBBFBC607BA /* target */,
+				8EF5670885A23764D20EA202 /* target */,
+				81570460FB1342130B252020 /* target */,
+			);
+		};
+8B4A668D003B3C5A03DA1862 /* IOSHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA4220D26BBBA70680DEE1 /* IOSHistoryView.swift */; };
+8EF5670885A23764D20EA202 /* PianoMonitorIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862D8F118A4FCF583E29CB10 /* Build configuration list for PBXNativeTarget "PianoMonitorIOS" */;
+			buildPhases = (
+				615870CA5D4B73890D9751FA /* Sources */,
+				418DCF83F1D299B60716C666 /* Frameworks */,
+				451CE55A4DF9211711B38554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75C1B04BC53E5FE8C387B6E1 /* PBXTargetDependency */,
+				2830F9977E2F41F90941D071 /* PBXTargetDependency */,
+			);
+			name = PianoMonitorIOS;
+			productName = PianoMonitorIOS;
+			productReference = 0931F9D6858FA43D6E89F44F /* PianoMonitorIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+8FC45055B42CFCB9FFEDD809 /* StatusObserverBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatusObserverBridge.swift"; sourceTree = "<group>"; };
+90D680959F5885346D956236 /* StatusItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StatusItemController.swift"; sourceTree = "<group>"; };
+91ED37E792A1A4B12E964BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8789657498A7B6609F16F34E /* in Sources */,
+				5250CB6B944E230A23F1E1E3 /* in Sources */,
+				F3543ED61B48FB8F5B682ADA /* in Sources */,
+				D61A18008F8702E2A374BDB1 /* in Sources */,
+				70CA56842297ECB0957FAEAC /* in Sources */,
+				5D95274CF86080BDD056A82C /* in Sources */,
+				005563B0FE565048FF365DEA /* in Sources */,
+				C73D8BAE411BC06C55BCCA7B /* in Sources */,
+				C270A2E44585E921D7900507 /* in Sources */,
+				E92E171AAE1C3501559B7F65 /* in Sources */,
+				431C5EAEB6754567816E8555 /* in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+94365426AD2FD68B17A1C509 /* BoundedOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876428D3B9F7AFC58200CE81 /* BoundedOperation.swift */; };
+94677B855D712332A159B42A /* AudioBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC719E339687A5FA5F648DB8 /* AudioBuffer.swift */; };
+94CC2296A4E6773103D1B057 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C93C0486237BCF925614595 /* in Sources */,
+				86397141269F9C7DF247EB9A /* in Sources */,
+				F1AB0924B49F701C4CA5228C /* in Sources */,
+				C94613B18AB9E406EF59A87F /* in Sources */,
+				CF2E5498BCED0BECE6913EF6 /* in Sources */,
+				35AB4F73155B0E794A9B7347 /* in Sources */,
+				EA9C8AF4AD305F97CBCEA6CC /* in Sources */,
+				B7A4FE68299F7BCB2867D5B8 /* in Sources */,
+				1C28EC60D3217F406AF29C5A /* in Sources */,
+				3618B743F868FA2DD9C12B5F /* in Sources */,
+				CB9B4FDB64568A49CCF8EB0D /* in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+96C472076E233B618C939162 /* PianoMonitorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6130C62AE35901272C43DA36 /* PianoMonitorService.swift */; };
+9849C24349C96C5A04095404 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryView.swift"; sourceTree = "<group>"; };
+984EB3843ECB6D8EC243822F /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PerformanceTests.swift"; sourceTree = "<group>"; };
+98839A528B9859FAE2CBAF61 /* PianoMonitorMacUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCCA9E52B6FDB1C3610E2A3 /* Build configuration list for PBXNativeTarget "PianoMonitorMacUI" */;
+			buildPhases = (
+				94CC2296A4E6773103D1B057 /* Sources */,
+				472A54A38581B7ED3956A61F /* Frameworks */,
+				ABD0E4F1F737D5EE7F2F02F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE137E52EEEC949332EB75CB /* PBXTargetDependency */,
+			);
+			name = PianoMonitorMacUI;
+			productName = PianoMonitorMacUI;
+			productReference = 4B25D15283588D5E11BB58C8 /* PianoMonitorMacUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+99F08ACBA71964F5A55765DF /* SwiftDataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftDataStoreTests.swift"; sourceTree = "<group>"; };
+9A3FA16C5648B5A849AAD789 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				53CEA824B0DB28DAC16B85A9 /* child */,
+				7D0AAB64D549D87CE1E6ABB8 /* child */,
+				9849C24349C96C5A04095404 /* child */,
+				AC293E3CDD0C6994113BD378 /* child */,
+				C5E639322D16A4A30FEA13C4 /* child */,
+				E639F83FC1F44C2EE205524A /* child */,
+			);
+			path = "Views"; sourceTree = "<group>";
+		};
+9BB7320B9EAAA4A6B3A48FA7 /* AudioConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42707559654F50A0533FB0C /* AudioConfiguration.swift */; };
+9D11A1C9CB88741FED581B21 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppSettings.swift"; sourceTree = "<group>"; };
+9E3EB3CC765BED2A144F59EB /* Build configuration list for PBXProject "PianoMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0380621F8BCA688494B679D7 /* Debug */,
+				65AA0B85393EE685E3B6C31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+9F1ED856B608BCF1FBE80E10 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 8B27EFD309E0A222D0F52C62 /* Project object */; proxyType = 1; remoteGlobalIDString = 4ECCAE6F104967876E17DA88; remoteInfo = PianoMonitorKit; };
+A185A3D291BBF88EFCC8B305 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				2173FCB7C07EE171EE03966A /* child */,
+				62FDDBA6E908F7CFED368885 /* child */,
+				893C96DC9411281DADE4D2E0 /* child */,
+				DC719E339687A5FA5F648DB8 /* child */,
+				E42707559654F50A0533FB0C /* child */,
+			);
+			path = "Audio"; sourceTree = "<group>";
+		};
+A7CC26C83F8F6795F70EECDB /* DSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DSP.swift"; sourceTree = "<group>"; };
+A985FE7D6BE24B4809C500A2 /* SyntheticSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283F2642FFC8CAD9359FEE07 /* SyntheticSignal.swift */; };
+AAD2FD9C911DD39F313E625F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+
+			);
+			sourceTree = "<group>";
+		};
+ABD0E4F1F737D5EE7F2F02F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+AC293E3CDD0C6994113BD378 /* WaveformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaveformView.swift"; sourceTree = "<group>"; };
+AC7F416F1435C8DF6E339B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Apps/iOS/PianoMonitorIOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Apps/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.ios;
+				PRODUCT_NAME = "PianoMonitor";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+			};
+			name = Release;
+		};
+ACE9949B627A33BF1E5BB396 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.mactests;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piano Monitor.app/Contents/MacOS/Piano Monitor";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+			name = Debug;
+		};
+AE137E52EEEC949332EB75CB /* PianoMonitorKit */ = {isa = PBXTargetDependency; target = 4ECCAE6F104967876E17DA88 /* PianoMonitorKit */; targetProxy = E639F9423B0C214EEDC15178 /* PBXContainerItemProxy */; };
+B05091084B0FC805CCC7A067 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				69930AC282C8EEF75FDCE4A8 /* child */,
+				9D11A1C9CB88741FED581B21 /* child */,
+			);
+			path = "Models"; sourceTree = "<group>";
+		};
+B13718421DF4E9B045C134FF /* PianoMonitorMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PianoMonitorMac.entitlements"; sourceTree = "<group>"; };
+B27F5255A28E2C7548BBE435 /* PianoMonitorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "PianoMonitorKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+B283FF0A7FC30D5841AEC4EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.framework.pianomonitormacui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+			};
+			name = Release;
+		};
+B2B479C527092CC93D3CB641 /* DetectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetectorTests.swift"; sourceTree = "<group>"; };
+B2FE4173C5191B6FA3157855 /* PianoMonitorIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PianoMonitorIOSApp.swift"; sourceTree = "<group>"; };
+B477B6DB963DBCDF44DA2F69 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D11A1C9CB88741FED581B21 /* AppSettings.swift */; };
+B48547A136AECC2F835A53F8 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F619A8AAFE9A9C7C5CB2DFA7 /* AtomicInt.swift */; };
+B5B4B6542E16E66700FA42B0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0836998E53B7F7CBB639D79C /* child */,
+				537D429652A9FAAB52C4C746 /* child */,
+				B2FE4173C5191B6FA3157855 /* child */,
+			);
+			path = "iOS"; sourceTree = "<group>";
+		};
+B5FE66D96E2B5E306D035558 /* Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				07F1FB8B7E70C0E3F4AC76E2 /* child */,
+				283F2642FFC8CAD9359FEE07 /* child */,
+				30059F4D954F5EE78EB0C90A /* child */,
+				A7CC26C83F8F6795F70EECDB /* child */,
+				F54100BDC0C2F7B082CCAA40 /* child */,
+			);
+			path = "Analysis"; sourceTree = "<group>";
+		};
+B65972E303393DAF9162EDD1 /* PianoMonitorIOSUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1580345260364D1DCBE15B8E /* PianoMonitorIOSUI.framework */; };
+B6FEB8B6B415C89C3C649BE2 /* PianoMonitorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F5255A28E2C7548BBE435 /* PianoMonitorKit.framework */; };
+B7A4FE68299F7BCB2867D5B8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0AAB64D549D87CE1E6ABB8 /* SettingsView.swift */; };
+B929769BD53C8BEE6BF9A7C9 /* JSONDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55B2CB7C80C348BBA8DC90 /* JSONDataStore.swift */; };
+BE6EB96AB75DED8F4F177D89 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Package.swift"; sourceTree = "<group>"; };
+C270A2E44585E921D7900507 /* SwiftDataStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F08ACBA71964F5A55765DF /* SwiftDataStoreTests.swift */; };
+C3068CE00E6D66061D324BD0 /* PianoMonitorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B27F5255A28E2C7548BBE435 /* PianoMonitorKit.framework */; };
+C3823EBF133121DA779A8157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.framework.pianomonitormacui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+			name = Debug;
+		};
+C44E85E8A89FAE5F75CF3BA7 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C071008F1035F10DC631586 /* HTTPRequest.swift */; };
+C5E639322D16A4A30FEA13C4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DashboardView.swift"; sourceTree = "<group>"; };
+C7356CCD7025C1A7F6A7FA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Apps/iOS/PianoMonitorIOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Apps/iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.ios;
+				PRODUCT_NAME = "PianoMonitor";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+			};
+			name = Debug;
+		};
+C73D8BAE411BC06C55BCCA7B /* StatisticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479B14BD1A6A281525EBA0AE /* StatisticsTests.swift */; };
+C7AD0AEDC6328F7F50EDAC27 /* SwiftDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E123BEECA3C23161DB87BB6 /* SwiftDataStore.swift */; };
+C85A3B756D5810474AEFD6AA /* LiveStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiveStatus.swift"; sourceTree = "<group>"; };
+C94613B18AB9E406EF59A87F /* PianoMonitorAppRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27CAA144B939F411FE39039 /* PianoMonitorAppRuntime.swift */; };
+C9E23FCAFDAD34C33074F275 /* PianoMonitorMacUI */ = {
+			isa = PBXGroup;
+			children = (
+				485182EB7248E2AFD6C32B3E /* child */,
+			);
+			sourceTree = "<group>";
+		};
+CB9B4FDB64568A49CCF8EB0D /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC293E3CDD0C6994113BD378 /* WaveformView.swift */; };
+CC71FA64222A51A0FF6E00AF /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				192532078551CACB882DAE75 /* child */,
+			);
+			path = "Logging"; sourceTree = "<group>";
+		};
+CF2E5498BCED0BECE6913EF6 /* StatusObserverBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC45055B42CFCB9FFEDD809 /* StatusObserverBridge.swift */; };
+D060B6B633F7E3B6592611F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				MACH_O_TYPE = staticlib;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pianomonitor.framework.pianomonitorkit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+			};
+			name = Release;
+		};
+D27CAA144B939F411FE39039 /* PianoMonitorAppRuntime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PianoMonitorAppRuntime.swift"; sourceTree = "<group>"; };
+D3939E7FBE0484CCA9C2316D /* XCLocalSwiftPackageReference "PianoMonitor" */ = {isa = XCLocalSwiftPackageReference; relativePath = .; };
+D61A18008F8702E2A374BDB1 /* DetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B479C527092CC93D3CB641 /* DetectorTests.swift */; };
+D634C4042DFD7A3BBFEE6D69 /* AudioEnginePinningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioEnginePinningTests.swift"; sourceTree = "<group>"; };
+DC719E339687A5FA5F648DB8 /* AudioBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioBuffer.swift"; sourceTree = "<group>"; };
+DCA0979E84C8158359E07BD8 /* PianoMonitorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PianoMonitorApp.swift"; sourceTree = "<group>"; };
+E288D4254968889A17FFB9A4 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				8FC45055B42CFCB9FFEDD809 /* child */,
+				D27CAA144B939F411FE39039 /* child */,
+			);
+			path = "State"; sourceTree = "<group>";
+		};
+E354583E606470F83A09C818 /* AudioDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173FCB7C07EE171EE03966A /* AudioDeviceManager.swift */; };
+E3995784510691962E9685B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F5FFD1E4DC8A43F0247EF3 /* in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+E42707559654F50A0533FB0C /* AudioConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AudioConfiguration.swift"; sourceTree = "<group>"; };
+E639F83FC1F44C2EE205524A /* SharedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SharedViews.swift"; sourceTree = "<group>"; };
+E639F9423B0C214EEDC15178 /* PBXContainerItemProxy */ = {isa = PBXContainerItemProxy; containerPortal = 8B27EFD309E0A222D0F52C62 /* Project object */; proxyType = 1; remoteGlobalIDString = 4ECCAE6F104967876E17DA88; remoteInfo = PianoMonitorKit; };
+E6DC2F9DAE10C73857F97E2A /* PianoMonitorIOSUI */ = {
+			isa = PBXGroup;
+			children = (
+				1FDB4B4BA97AFD17448C7948 /* child */,
+				764A9756EA0DDB1E5498618C /* child */,
+			);
+			path = "PianoMonitorIOSUI"; sourceTree = "<group>";
+		};
+E92E171AAE1C3501559B7F65 /* TempoAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC60AE15A7C3B9F27B03261 /* TempoAnalyzerTests.swift */; };
+EA9C8AF4AD305F97CBCEA6CC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9849C24349C96C5A04095404 /* HistoryView.swift */; };
+EB5D7C6F14E526D9D283CAE0 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893C96DC9411281DADE4D2E0 /* AudioEngine.swift */; };
+EC0108043E971CC04908A530 /* PianoMonitorKit */ = {isa = PBXTargetDependency; target = 4ECCAE6F104967876E17DA88 /* PianoMonitorKit */; targetProxy = 15A038664412C2356E15EC86 /* PBXContainerItemProxy */; };
+F0DB9328300D3CF3228E78C2 /* TestSignals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TestSignals.swift"; sourceTree = "<group>"; };
+F1AB0924B49F701C4CA5228C /* StatusItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D680959F5885346D956236 /* StatusItemController.swift */; };
+F2EEA4FE33D11AB58D2285A4 /* PianoMonitorMacUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B25D15283588D5E11BB58C8 /* PianoMonitorMacUI.framework */; };
+F3543ED61B48FB8F5B682ADA /* AudioEnginePinningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D634C4042DFD7A3BBFEE6D69 /* AudioEnginePinningTests.swift */; };
+F358AFA1F9FDA87CFB559D38 /* PianoDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F1FB8B7E70C0E3F4AC76E2 /* PianoDetector.swift */; };
+F54100BDC0C2F7B082CCAA40 /* TempoAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TempoAnalyzer.swift"; sourceTree = "<group>"; };
+F570600CF69E4B928FC37F90 /* PianoMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				BE6EB96AB75DED8F4F177D89 /* child */,
+				6A39791D2045BDD2FA8A1663 /* child */,
+				C9E23FCAFDAD34C33074F275 /* child */,
+				1B473833DDCE3CB162860127 /* child */,
+				FBF1D6D07D249923D34458AA /* child */,
+				13B3DC5308CD144E96073DC2 /* child */,
+				F6B8741CD5C52B0C6680D5D7 /* child */,
+				4F8D36A92367CFDFEFB66CEE /* child */,
+			);
+			sourceTree = "<group>";
+		};
+F619A8AAFE9A9C7C5CB2DFA7 /* AtomicInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AtomicInt.swift"; sourceTree = "<group>"; };
+F6B8741CD5C52B0C6680D5D7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FA6E9EB73C67D82E0D0CEC82 /* child */,
+			);
+			sourceTree = "<group>";
+		};
+F8C85AE04F8F1EDCCCA05463 /* PlayingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30059F4D954F5EE78EB0C90A /* PlayingStateMachine.swift */; };
+F9AB59A2A86971C26C7D19B2 /* LiveStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85A3B756D5810474AEFD6AA /* LiveStatus.swift */; };
+FA6E9EB73C67D82E0D0CEC82 /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				B5B4B6542E16E66700FA42B0 /* child */,
+			);
+			path = "Apps"; sourceTree = "<group>";
+		};
+FA95BBA940ECB7730845F3F4 /* AnalysisPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnalysisPipeline.swift"; sourceTree = "<group>"; };
+FBF1D6D07D249923D34458AA /* PianoMonitorKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F33E3A7A4225615F21B0EE2 /* child */,
+			);
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 8B27EFD309E0A222D0F52C62 /* Project object */;
+}
